@@ -23,3 +23,16 @@ qui permettra de démarrer l`environnement bundled.
 # Structure du projet
 
 La structure du projet sera expliqué dans cette section. les détails seront également expliqués
+
+## Localstorage (informations)
+
+pour garder en memoire certains element en javascript, il faut utiliser *localstorage*
+```js
+localStorage.setItem(menuName, newState);
+// le tout sera sauvegarde dans le appData et permettra de garder ces infos a la prochaine refresh
+```
+```js
+sessionStorage.setItem(menuName, newState);
+// sessionStorage sauvegarderas dans l'onglet ou la session actuelle
+// TOUT sera sauvegarde en string
+```
