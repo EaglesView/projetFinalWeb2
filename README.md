@@ -15,8 +15,9 @@ npm install
 ```
 et ensuite aller avec la commande
 ```bash
-
+webpack
 ```
+qui permettra de démarrer l`environnement bundled.
 ## Démarrer en mode visionnement
 
 # Structure du projet
